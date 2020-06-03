@@ -5,7 +5,10 @@
     <Authors>Mukul Joshi</Authors>
     <Description>Sample class to generate OAuth or Basic Auth token based on passed parameters</Description>
     <PackageId>AuthTokenHelper_Mukul1722</PackageId>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/mukul1722/AuthTokenHelper.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>OAuthToken &amp; BasicAuth Token Helper Classes</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

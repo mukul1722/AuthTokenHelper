@@ -3,12 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Mukul Joshi</Authors>
-    <Description>Sample class to generate OAuth or Basic Auth token based on passed parameters</Description>
+    <Description>Test sample class to generate OAuth or Basic Auth token based on passed parameters</Description>
     <PackageId>AuthTokenHelper_Mukul1722</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/mukul1722/AuthTokenHelper.git</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>OAuthToken &amp; BasicAuth Token Helper Classes</PackageTags>
+    <Copyright>Copyright 2020 © Mukul Joshi All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>

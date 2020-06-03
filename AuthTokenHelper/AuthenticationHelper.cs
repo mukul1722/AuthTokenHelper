@@ -14,20 +14,20 @@ namespace AuthTokenHelper
             TokenResponse response = new TokenResponse();
             string responseToken = GetBasicToken(tokenurl, username, password);
             JObject jobj = JObject.Parse(responseToken);
-            string token = (string)jobj["access_token"];
+            string token = (string)jobj["access_token"];  
             if (token == null)
             {
                 string error = (string)jobj["error"];
                 string description = (string)jobj["error_description"];
-                response.token = "error:" + error + " ,error description : " + description;
+                response.accessToken = "error:" + error + " ,error description : " + description;
                 response.isSuccess = false;
             }
             else
             {
-                response.token = token;
+                response.accessToken = token;                
+                response.expiresIn = (string)jobj["expires_in"];
                 response.isSuccess = true;
             }
-
             return response;
         }
 

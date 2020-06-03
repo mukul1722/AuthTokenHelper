@@ -6,7 +6,9 @@ namespace AuthTokenHelper
 {
     public class TokenResponse
     {
-        public string token { get; set; }
+        
+        public string accessToken { get; set; }
+        public string expiresIn { get; set; }
         public bool isSuccess { get; set; }
     }
 }

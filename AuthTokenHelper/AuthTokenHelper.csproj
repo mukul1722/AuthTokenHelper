@@ -1,20 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Mukul Joshi</Authors>
-    <Description>Test sample class to generate OAuth or Basic Auth token based on passed parameters</Description>
-    <PackageId>AuthTokenHelper_Mukul1722</PackageId>
+    <Description>Sample class to generate OAuth or Basic Auth token based on passed parameters</Description>
+    <PackageId>AuthTokenHelper</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/mukul1722/AuthTokenHelper.git</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>OAuthToken &amp; BasicAuth Token Helper Classes</PackageTags>
     <Copyright>Copyright 2020 © Mukul Joshi All rights reserved.</Copyright>
-    <PackageLicenseUrl>https://opensource.org/licenses</PackageLicenseUrl>
+    <PackageLicense>https://opensource.org/licenses</PackageLicense>
+    <Version>1.0.0</Version>
+    <NeutralLanguage></NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 
 </Project>

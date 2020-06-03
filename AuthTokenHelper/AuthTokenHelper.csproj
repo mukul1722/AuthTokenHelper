@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Mukul Joshi</Authors>
+    <Description>To generate OAuth or Basic Auth token based on passed parameters</Description>
+    <PackageId>AuthTokenHelper_Mukul1722</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

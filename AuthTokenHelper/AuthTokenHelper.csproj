@@ -3,8 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Mukul Joshi</Authors>
-    <Description>To generate OAuth or Basic Auth token based on passed parameters</Description>
+    <Description>Sample class to generate OAuth or Basic Auth token based on passed parameters</Description>
     <PackageId>AuthTokenHelper_Mukul1722</PackageId>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
